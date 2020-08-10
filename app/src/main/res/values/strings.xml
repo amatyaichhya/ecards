@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E-cards</string>
+    <string-array name="query_suggestions">
+        <item>Christmas</item>
+        <item>Holi</item>
+        <item>Dashain</item>
+        <item>New Year</item>
+    </string-array>
+</resources>

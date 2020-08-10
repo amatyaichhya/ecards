@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Christmas"
+    android:background="#000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#fff">
+            <ImageView
+                android:id="@+id/newyearimage"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:src="@mipmap/nayabarsa">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s1"
+                android:text="नव वर्षको सुखद उपलक्ष्यमा"
+                android:textSize="18dp"
+                android:textColor="#6a6969"
+                android:textStyle="bold"
+                android:layout_marginTop="100dp"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s2"
+                android:text="सुख शान्ति समृदि दिर्घायू तथा सु-स्वाश्थ्य को लागि"
+                android:textSize="17dp"
+                android:textColor="#6a6969"
+                android:textStyle="bold"
+                android:layout_below="@+id/s1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s3"
+                android:text="हार्दिक मंगलमय शुभकामना"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#6a6969"
+                android:layout_below="@+id/s2"
+                android:layout_centerHorizontal="true"
+
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:background="#5000"
+            android:gravity="center"
+            android:id="@+id/sharing">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back"
+                android:id="@+id/back"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5">
+
+            </View>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_share"
+                android:id="@+id/share"
+                android:layout_weight="1"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

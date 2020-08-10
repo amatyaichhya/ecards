@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#dc3dfc"
+            android:textAlignment="center"
+            android:text="Share"
+            android:textSize="30sp"
+            android:textColor="#FFF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:id="@+id/sharephoto"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="5dp"
+            android:background="#3000">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:id="@+id/sharevideo"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

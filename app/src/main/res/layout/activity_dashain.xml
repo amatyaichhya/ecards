@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Christmas"
+    android:background="#000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#fff">
+            <ImageView
+                android:id="@+id/object"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:src="@mipmap/dashain" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s1"
+                android:text="बडा दशै को मंगलमय"
+                android:textSize="18dp"
+                android:textColor="#c20404"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s2"
+                android:text="हार्दिक शुभकामना"
+                android:textSize="18dp"
+                android:textColor="#c20404"
+                android:layout_below="@+id/s1"
+                android:layout_marginLeft="212dp"
+
+                />
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/s3"
+                android:text="माता भवानीले सबैलाई सम्पन्न्ता, यशकीर्ति मात्र नभै धैर्य,लज्जा,सदाचार अनि सद्बुद्धि पनि प्रदान गरुन्"
+                android:textSize="16dp"
+                android:textColor="#e5d860"
+                android:layout_marginTop="230dp"
+                android:padding="5dp"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:background="#5000"
+            android:gravity="center"
+            android:id="@+id/sharing">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back"
+                android:id="@+id/back"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5">
+
+            </View>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_share"
+                android:id="@+id/share"
+                android:layout_weight="1"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
